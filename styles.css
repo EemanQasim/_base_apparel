@@ -7,3 +7,81 @@ body {
 img{
     max-width: 100%;
 }
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 750px;
+    margin: 250px auto;
+    border: 1px solid black;
+}
+
+ /* Info Section  */
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+
+}
+
+.inner_info{
+    width: 80%;
+    margin: 20px 0 0 50px
+}
+
+.Image{
+    width: 40%;
+
+}
+
+.headings, h1, h2, h2{
+    margin: 0;
+    
+}
+
+.headings{
+    margin-top: 50px;
+}
+
+.inner_info , p ,form {
+    margin-top: 20px
+}
+
+
+form{
+    width: 95%;
+    height: 40px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.mail{
+    width: 80%;
+    
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    width: 20%;
+}
+/* End of Info section */
+
+
+
+
+
+/* Image section  */
+
+
+
+
+
+
+
+
+/* Image section End  */
