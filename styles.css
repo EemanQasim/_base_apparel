@@ -12,9 +12,9 @@ img{
 .main{
     display: flex;
     flex-wrap: wrap;
-    width: 750px;
+    width: 100%;
     margin: 250px auto;
-    border: 1px solid black;
+    
 }
 
  /* Info Section  */
@@ -31,10 +31,6 @@ img{
     margin: 20px 0 0 50px
 }
 
-.Image{
-    width: 40%;
-
-}
 
 .headings, h1, h2, h2{
     margin: 0;
