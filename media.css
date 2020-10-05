@@ -1,0 +1,29 @@
+
+
+@media screen (min-width : 501px) {
+
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "header header figure"
+      "main   main   figure "
+      "main   main   figure ";
+    max-width: 750px;
+    height: 750px;
+    margin: 25%;
+  }
+
+  article {
+    grid-area: main;
+  }
+
+  header{
+    grid-area: header;
+  }
+
+  fig{
+    grid-area: figure;
+  }
+}
