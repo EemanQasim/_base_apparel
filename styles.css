@@ -3,8 +3,9 @@
 }
 
 main {
-  min-width: 350px;
-  max-width: 500px;
+  min-width: 375px;
+  max-width: 501px;
+  height: 100vh;
   margin: 0 auto;
   display: grid;
   grid-template-areas:
